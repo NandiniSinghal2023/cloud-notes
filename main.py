@@ -8,7 +8,7 @@ notes = [
 
 @app.get("/")
 def home():
-    return {"message" : "Cloud notes API is running!"}
+    return {"message" : "Cloud notes running on PaaS!"}
 
 @app.get("/notes")
 def get_notes():
